@@ -1,0 +1,81 @@
+<!-- Saptarshi Karmakar 5264263 COMP112 ASSIGNMENT -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- skarmakar page3.html -->
+		<meta charset="UTF-8">
+		<title>Mama Bear Child Care | Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+			<!-- Main Heading(which appears on every page) -->
+				<h1 class="heading">MAMA BEAR CHILD CARE CENTER</h1>
+				<!-- Navigation bar -->
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="page.html">About</a></li>
+						<li><a href="page1.html">Daily Programme</a></li>
+						<li><a href="page4.html">Gallery</a></li>
+						<li><a href="page2.html">Staff</a></li>
+						<li><a class="active" href="page3.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section>
+		 <!-- main Content -->
+		<!-- FORM which uses the lab script and sends the inputted information to karri390@student.otago.ac.nz -->
+			<h2>Enquire about admission</h2>
+			<p>Please fill up the form and we will contact you soon for more details regarding your child's admission to Mama Bear Child Care
+			</p>
+			<form method="post" enctype="application/x-www-form-urlencoded" action="http://www.cs.otago.ac.nz/112bin/112formslab.cgi">
+				<input type="hidden" name="recipient" value="karri390@student.otago.ac.nz">
+				<input type="hidden" name="subject" value="112 assignment">
+				<input type="hidden" name="followup-page" value="http://csnet.otago.ac.nz/skarmakar/assignment/followup.html">
+				<fieldset class="contactdetails">
+					<legend>Contact Details</legend>
+					<p>
+						<label for="name">Name</label>
+						<input type="text" name="Name" id="name">
+					</p>
+					<p>
+						<label for="email">Email:</label>
+						<input type="email" name="Sender" id="email">
+					</p>
+					<p>
+						<label for="address">Address:</label>
+						<input type="text" name="Address" id="address">
+					</p>
+					<p>
+						<label for="phone">Phone</label>
+						<input type="tel" name="Phone" id="phone">
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Message</legend>
+					<label>
+						<textarea cols="40" rows="4" id="comments" name="message" placeholder="Type your questions here"></textarea>
+					</label>
+				</fieldset>
+				<p><input type="reset" value="Reset"> <input type="submit" value="Submit">	</p>
+			</form>
+			<h3>OR</h3>
+			<section class="contactdetails">
+				<h2>Contact Us</h2>
+				<p>If you have any questions about Mama Bear please contact us at:</p>
+				<p>enquiries@mamaBear.co.nz</p>
+				<p>123 Salmon Lake Lane</p>
+				<p>Big Bear City</p>
+			</section>
+		</section>
+		<footer>
+		<!-- Footer which appears on every page -->
+			<p>This website was created for a University project. The content is largely fictional and no services are actually being offered.
+			</p>
+		</footer>
+	</body>
+</html>
+  

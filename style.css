@@ -1,0 +1,283 @@
+/* SAPTARSHI KARMAKAR 5264263 COMP112 ASSIGNMENT Style Sheet for website */
+/* skarmakar style.css */
+
+body{
+	margin: 0;
+	background: #0B0C10;
+	font-family: "Verdana",sans-serif;
+	color: white;
+}
+	
+/* Main Heading styling*/
+.container {
+	
+	margin: auto;
+	
+}
+
+.heading {
+	background-color: #1f2833;
+	color: #66fcf1;
+	margin: auto;
+	padding-top:20px;
+	
+}
+
+
+
+/* Navigation Bar styling*/
+header{
+	background-color: #1f2833;
+	color: #66fcf1;
+	border-bottom: 2px solid #66FCF1;
+}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+	
+}
+
+nav{
+	float:right;
+}
+
+nav ul{
+	margin-left:0;
+	margin-top:0;
+	margin-bottom:0;
+	padding:0;
+	margin-right:721px;
+	list-style:none;
+}
+
+nav li{
+	display: inline-block;
+  margin-left: 120px;
+  padding-top: 30px;
+  margin-top: 20px;
+  
+  position: relative;
+}
+ 
+ li a.active{
+	 color: white;
+	background-color: inherit;
+}
+ 
+nav a {
+	color: #66FCF1;
+	background-color: inherit;
+	text-decoration:none;
+	text-transform: uppercase;
+    font-size: 19px;
+}
+
+
+
+
+/* Navigation Bar Hover effects */
+nav a:active {
+	color: white;
+	background-color: inherit;
+}
+
+nav a:hover {
+	color: white;
+	background-color: inherit;
+}
+ 
+nav a:before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 0%;
+	background-color: white;
+	color: inherit;
+	position: absolute;
+	top:0;
+	transition: all ease-in-out 250ms;
+}
+
+
+nav a:hover::before{
+	width: 100%;
+}
+
+
+ 
+/* All the headings in the markup */	
+h1,h2,h3{
+	color:#66FCF1;
+	background-color: inherit;
+	text-align:center;
+}
+
+
+/*To allign a paragraph to the left*/
+.l {
+	text-align: left;
+}
+
+
+/*Image styling*/
+fig+img {
+	float: right;
+	clear: right;
+	display: inline-block;
+	margin: auto;
+}
+
+
+
+/*Main content in the pages*/
+section{
+	width: 1000px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	
+	
+}
+
+
+/*Table styling */
+table,th,tr {
+	width: 700px;
+	margin: auto;
+	text-align: center;
+	border: 2px solid white;
+	color: #66FCF1;
+	background-color: inherit;
+}
+
+
+/*form styling */
+form{
+	width: 700px;
+	margin: auto;
+	
+}
+fieldset{
+	padding: 10px;
+	background-color:#1f2833;
+	color: #66FCF1;
+	
+}
+input{
+	width: 200px;
+}
+label {
+	width: 200px;
+	float: left;
+}
+li{ 
+clear: left;
+}
+ul.remove{
+	list-style-type: none;
+}
+textarea#comments{
+	 width: 375px;
+  height: 150px;
+  display: block;
+}
+
+/*Footer styling */
+footer {
+	font-size: small;
+	text-align: center;
+	color: #66FCF1;
+	background-color: inherit;
+	font-family: "Verdana", sans-serif;
+	margin-top:150px
+}
+
+
+/*To allign three paragraphs on different pages to the center */
+
+section.meal {
+	text-align:center;
+}
+
+
+section.v {
+	text-align:center;
+}
+
+
+section.contactdetails {
+    text-align:center;
+}
+
+
+
+
+/*Styling of the image gallery */
+div#gHolder {
+width: 700px;
+height: 600px;
+margin: 0 auto;
+background-color: inherit;
+color: inherit; 
+padding: 10px;
+}
+
+
+
+div#theBigImageHolder {
+width: 700px;
+height: 500px;
+background-color: inherit;
+color: inherit;
+}
+
+
+div#thumbnailsHolder {
+width: 780px;
+height: 100px;
+background-color: inherit;
+color: inherit;
+margin-left: -29px;
+padding: 3px;
+}
+
+
+
+div#theBigImageHolder > img{
+width: 700px;
+height: 500px;
+border: 1px solid #1f2833;
+margin: auto;
+}
+
+
+
+div#thumbnailsHolder > img{
+ height: 90px;
+ width: 90px;
+ display: block;
+ float: left;
+ margin: 2px;
+ transition: border-radius 0.3s ease-in 0s;
+}
+
+
+
+div#thumbnailsHolder > img:hover{
+border-radius: 100px;
+cursor: pointer;
+}
+
+
+
+p.centerallign {
+	text-align:center;
+}
+
+
+/*End of CSS */
+
+
+
